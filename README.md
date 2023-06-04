@@ -2,6 +2,13 @@
 
 👋 Welcome to the documentation for the Todo REST API! This API allows you to manage a collection of todos. You can perform operations like retrieving all todos, retrieving a specific todo by its ID, updating a todo, and deleting a todo. The API is built using Node.js and is hosted on GitHub. Let's dive into the details of how to use this API effectively.
 
+## 🚀 Features
+
+- Retrieve all todos
+- Get a specific todo by ID
+- Update a todo's task name and completion status
+- Delete a todo
+
 ## 📍 Endpoints
 The following endpoints are available in the Todo REST API:
 
@@ -68,6 +75,7 @@ The API will be running locally at **`http://localhost:3000`** .
 Congratulations! You now have all the information you need to start using the Todo REST API. Feel free to explore the different endpoints and interact with the todos in your application. If you have any questions or issues, please don't hesitate to reach out. Happy coding! 🚀
 
 
+> **_NOTE:_**  There is no database, it operates through db/todo.json
 
 
 
