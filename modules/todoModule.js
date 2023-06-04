@@ -22,7 +22,7 @@ function create(data) {
   return new Promise((resolve, reject) => {
     const newTodo = {
       id: uuidv4(),
-      title: data.taskName,
+      taskName: data.taskName,
       completed: data.completed,
     };
     todoDB.push(newTodo);
