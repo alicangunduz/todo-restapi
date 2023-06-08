@@ -64,7 +64,7 @@ npm install
 4. Start the server:
 
 ```
-npm install  or npm run dev (nodemon)
+npm start  or npm run dev (nodemon)
 ```
 
 The API will be running locally at **`http://localhost:3000`** .
